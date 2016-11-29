@@ -25,8 +25,9 @@ gem 'jbuilder', '2.5.0'
 # gem 'bcrypt', '3.1.7'
 
 # Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
+  gem 'capistrano-rails', group: :development
+#Use Font Awesome for icons
+  gem 'font-awesome-sass', '4.7.0'
 # Use Twitter Bootstrap for Front End Library
   gem 'bootstrap-sass', '3.3.7'
 group :development, :test do
