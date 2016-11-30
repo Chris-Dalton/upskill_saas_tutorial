@@ -28,6 +28,10 @@ gem 'jbuilder', '2.5.0'
   gem 'capistrano-rails', group: :development
 #Use Font Awesome for icons
   gem 'font-awesome-sass', '4.7.0'
+  
+#Use Hirb to display database as tables
+gem 'hirb', '0.7.3'
+
 # Use Twitter Bootstrap for Front End Library
   gem 'bootstrap-sass', '3.3.7'
 group :development, :test do
