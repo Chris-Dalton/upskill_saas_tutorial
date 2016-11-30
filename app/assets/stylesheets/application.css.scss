@@ -22,6 +22,7 @@
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
     
+    
 }
 //gradient provided by http://uigradients.com
 .homeText, .navbar{
@@ -37,6 +38,11 @@ h1, h2, h3 {
 }
 .navbar{
     border: none;
+}
+.navbar-default .navbar-brand, .navbar-default {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a{
