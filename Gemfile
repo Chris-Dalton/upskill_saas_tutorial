@@ -32,6 +32,9 @@ gem 'jbuilder', '2.5.0'
 #Use Hirb to display database as tables
 gem 'hirb', '0.7.3'
 
+#Use Devise for user authentication
+gem 'devise', '4.2.0'
+
 # Use Twitter Bootstrap for Front End Library
   gem 'bootstrap-sass', '3.3.7'
 group :development, :test do
