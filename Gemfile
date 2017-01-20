@@ -35,8 +35,15 @@ gem 'hirb', '0.7.3'
 #Use Devise for user authentication
 gem 'devise', '4.2.0'
 
+# Use Stripe for Credit Card Gateway
+gem 'stripe', '~> 1.57', '>= 1.57.1'
+
+#Use Figaro for ENV Variables
+gem "figaro", '1.1.1'
+
 # Use Twitter Bootstrap for Front End Library
   gem 'bootstrap-sass', '3.3.7'
+  
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
@@ -44,6 +51,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
+  
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
