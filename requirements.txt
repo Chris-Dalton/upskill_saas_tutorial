@@ -1,13 +1,14 @@
 membership
-* User should see link for basic plan on homepage.
-* User should see link for pro plan on homepage.
-* Basic plan link should point to devise sign up form.
-* Pro plan should point to a custom sign up form.
+* User should see link for basic plan on homepage. - Done
+* User should see link for pro plan on homepage. -- Done
+* Basic plan link should point to devise sign up form. -- Done
+* Pro plan should point to a custom sign up form. -- Done
 
 Stripe integration
-1 user should have stripe token in user table
-2 JS should prevent pro form from submitting info when filling out form
-2.1 JS sends info to stripe. Stripe will return card token
+1 user should have stripe token in user table -- Done
+2 JS should prevent pro form from submitting info when filling out form -- done
+2.1 JS sends info to stripe. Stripe will return card token -- done
+
 3. Javascript combines card token with user fields to rails app.
 3.1 Rails should validate the user fields.
 3.2 Rails app will note if plan 1 or 2.
